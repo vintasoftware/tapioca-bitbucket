@@ -1,3 +1,8 @@
+"""
+Takes as it's input api.json that can be downloaded from:
+https://api.apigee.com/v1/users/bitbucket/consoles/bitbucket/apidescription?format=internal
+"""
+
 import json
 import re
 
