@@ -3,7 +3,7 @@
 ## Instalation
 **Not currently on air**
 ```
-pip install tapioca-facebook
+pip install tapioca-bitbucket
 ```
 
 ## Documentation
