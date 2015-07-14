@@ -25,17 +25,15 @@ class BitbucketClientAdapter(TapiocaAdapter):
         return response_data['values']
 
     def get_iterator_next_request_kwargs(self,
-            iterator_request_kwargs, response_data):
+            iterator_request_kwargs, response_data, response):
         page = response_data.get('page')
         if not page:
             return
-        url = page.get('next')
+
+        url = response_data.get('next')
 
         if url:
             return {'url': url}
 
 
 Bitbucket = generate_wrapper_from_adapter(BitbucketClientAdapter)
-
-
-# access_token=U7CwxOzexqG3y66jR4xwamFjvgIGvPr6TkVi4VIpcV-vhpucDd1rZGpe3enOOEjuiVggx76n5pHCeF0NnQ%3D%3D&scopes=snippet+issue+pullrequest+team+account&expires_in=3600&token_type=bearer

@@ -185,7 +185,7 @@ RESOURCE_MAPPING = {
     ]
   },
   "get_repositories": {
-    "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
+    "docs": "https://confluence.atlassian.com/display/BITBUCKET/repositories+Endpoint",
     "resource": "/repositories",
     "methods": [
       "GET"
