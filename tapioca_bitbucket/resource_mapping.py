@@ -1,14 +1,14 @@
 # coding: utf-8
 
 RESOURCE_MAPPING = {
-  "get_pr_comments": {
+  "pr_comments": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/pullrequests/{id}/comments",
     "methods": [
       "GET"
     ]
   },
-  "get_team": {
+  "team": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/teams/{teamname}",
     "methods": [
@@ -22,21 +22,21 @@ RESOURCE_MAPPING = {
       "POST"
     ]
   },
-  "get_repository_watchers": {
+  "repository_watchers": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/watchers",
     "methods": [
       "GET"
     ]
   },
-  "get_user": {
+  "user": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/users/{username}",
     "methods": [
       "GET"
     ]
   },
-  "get_forks": {
+  "forks": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/forks",
     "methods": [
@@ -50,28 +50,28 @@ RESOURCE_MAPPING = {
       "POST"
     ]
   },
-  "get_comment": {
+  "comment": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/commit/{revision}/comments/{comment_id}",
     "methods": [
       "GET"
     ]
   },
-  "get_team_members": {
+  "team_members": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/teams/{teamname}/members",
     "methods": [
       "GET"
     ]
   },
-  "get_pr_commentby_id": {
+  "pr_commentby_id": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/pullrequests/{id}/comments/{comment_id}",
     "methods": [
       "GET"
     ]
   },
-  "get_user_repos": {
+  "user_repos": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/users/{username}/repositories",
     "methods": [
@@ -86,42 +86,42 @@ RESOURCE_MAPPING = {
       "GET"
     ]
   },
-  "get_repo_by_owner": {
+  "repo_by_owner": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}",
     "methods": [
       "GET"
     ]
   },
-  "get_pr_diff": {
+  "pr_diff": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/pullrequests/{id}/diff",
     "methods": [
       "GET"
     ]
   },
-  "get_pr_activity": {
+  "pr_activity": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/pullrequests/activity",
     "methods": [
       "GET"
     ]
   },
-  "get_team_repositories": {
+  "team_repositories": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/teams/{teamname}/repositories",
     "methods": [
       "GET"
     ]
   },
-  "get_pull_request_approvals": {
+  "pull_request_approvals": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/pullrequests/{id}/approvals",
     "methods": [
       "GET"
     ]
   },
-  "get_diff": {
+  "diff": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/diff/{spec}",
     "methods": [
@@ -137,7 +137,7 @@ RESOURCE_MAPPING = {
       "GET"
     ]
   },
-  "get_pr_patch": {
+  "pr_patch": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/pullrequests/{id}/patch",
     "methods": [
@@ -170,28 +170,28 @@ RESOURCE_MAPPING = {
       "GET"
     ]
   },
-  "get_pull_request_changesets": {
+  "pull_request_changesets": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{accountname}/{repo_slug}/pullrequests/{pull_request_id}/changesets",
     "methods": [
       "GET"
     ]
   },
-  "get_comments": {
+  "comments": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/commit/{revision}/comments",
     "methods": [
       "GET"
     ]
   },
-  "get_repositories": {
+  "repositories": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/repositories+Endpoint",
     "resource": "/repositories",
     "methods": [
       "GET"
     ]
   },
-  "get_user_following": {
+  "user_following": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/users/{username}/following",
     "methods": [
@@ -206,35 +206,35 @@ RESOURCE_MAPPING = {
       "GET"
     ]
   },
-  "get_pr_commits": {
+  "pr_commits": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/pullrequests/{id}/commits",
     "methods": [
       "GET"
     ]
   },
-  "get_patch": {
+  "patch": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/repositories/{owner}/{repo_slug}/patch/{spec}",
     "methods": [
       "GET"
     ]
   },
-  "get_team_followers": {
+  "team_followers": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/teams/{teamname}/followers",
     "methods": [
       "GET"
     ]
   },
-  "get_user_followers": {
+  "user_followers": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/users/{username}/followers",
     "methods": [
       "GET"
     ]
   },
-  "get_team_following": {
+  "team_following": {
     "docs": "https://confluence.atlassian.com/display/BITBUCKET/Version+2",
     "resource": "/teams/{teamname}/following",
     "methods": [
