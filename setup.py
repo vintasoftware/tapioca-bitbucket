@@ -20,7 +20,7 @@ except (IOError, ImportError):
 
 package = 'tapioca_bitbucket'
 requirements = [
-    'tapioca-wrapper==0.3.2',
+    'tapioca-wrapper==0.3.7',
     'requests-oauthlib==0.4.2',
 ]
 test_requirements = [
