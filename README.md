@@ -1,7 +1,6 @@
 # Tapioca Bitbucket
 
 ## Instalation
-**Not currently on air**
 ```
 pip install tapioca-bitbucket
 ```
