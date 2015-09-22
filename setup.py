@@ -52,7 +52,7 @@ setup(
     long_description=readme,
     author='Andre Ericson',
     author_email='de.ericson@gmail.com',
-    url='https://github.com/aericson/tapioca-bitbucket',
+    url='https://github.com/vintasoftware/tapioca-bitbucket',
     packages=[
         'tapioca_bitbucket',
     ],
